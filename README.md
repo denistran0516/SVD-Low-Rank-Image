@@ -1,8 +1,6 @@
 This and the next challenge involve taking the SVD of a picture. A picture is represented
 as a matrix, with the matrix values corresponding to grayscale intensities of the pixels. We will use a
-picture of Einstein. You can download the file here1. Of course, you can replace this with any other
-picture—a selfie of you, your dog, your kids, your grandmother on her wedding day2... However, you
-may need to apply some image processing to reduce the image matrix from 3D to 2D (thus, grayscale
+picture of Einstein, an image processed to reduce the image matrix from 3D to 2D (thus, grayscale
 instead of RGB) and the datatype must be floats (Python).
 (a) After importing the image, constructed a low-rank approximation (based on the SVD layer
 decomposition, see lecture note) using various numbers of singular values. Show the original and

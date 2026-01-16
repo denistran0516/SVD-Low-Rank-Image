@@ -10,4 +10,4 @@ the results.
 reconstructing the picture (e.g., including all components that explain at least 4% of the variance).
 What threshold seems reasonable? The main additions here are computing percent variance explained
 and thresholding. It’s a good idea to check that all of the normalized singular values sum to 100.
->> # convert singular value s to percent explained: s = 100* s /np .sum( s )
+
